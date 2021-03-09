@@ -1,0 +1,137 @@
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+        Semantic HTML is HTML that is easiest to read for both humans and machines. For instance, semantic html would be using a "section" tag as opposed to "div" since a div is 1. Harder for a human to decipher without looking at the webpage itself and 2. Isn't as specific as to what the area it surrounds is.
+
+    2. What is HTML used for? 
+        HTML is a markup language used to divide up portions of text into chunks that you can manipulate in CSS and JavaScript to do what you want.
+
+    3. What is an attribute and where do we put it? 
+        Attributes are modifier to elements. You place them after the element and are followed with typically an equals sign and its value.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        An h1 tag is used for the top header and should only be used once.
+
+    5. Name two tags that have required attributes
+        The <a> tag and the <img> tag
+
+    6. What do we put in the head of our HTML document? 
+        <head>
+
+    7. What is an id? 
+        An attribute similar to a class besides it should only be used once throughout your HTML doc. Sets elements into a group.
+
+    8. What elements can I add an id to? 
+        ALL
+
+    9. How many times can I use the same id on a page? 
+        Once
+
+    10. What is a class? 
+        Attribute that sets elements into theyre own group. Can be used multiple times.
+
+    11. What elements can I add a class to? 
+        ALL
+
+    12. How many times can I use the same class on a page? 
+        As many times as your heart may or may not desire.
+
+    13. How do I get my link to open in a new tab?
+        Set the target attribute to "_blank"
+
+    14. What is the alt attribute in the image tag used for? 
+        Specifies other text that represents the image. (Helps search engines)
+
+    15. How do I reference an id?
+        The "#" sign in css
+
+    16. What is the difference between a section and a div
+        Section is more semantic but is typically much bigger than a div. 
+
+    17. What is CSS used for? 
+        CSS is used for styling your marked up webpage.
+
+    18. How to we select an element? Example - every h2 on the page
+        h2{} selector
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        A class is for something that may need to have the same properties in the future. For instance if you wanted the margins of two specific paragraphs you'd put them under the same class. 
+
+        An ID is so you can group a specific chunk of different elements into one as long as they're consecutive in your HTML. IE: Setting the background color of multiple paragraphs in the same section to the same color.
+
+    20. How do we select classes in CSS?
+        .(classname){}
+
+    21. How do we select a p element with a single class of “human””?
+        .human p{}
+
+    22. What is a parent child selector? When would this be useful? 
+        parent > child{} 
+        When you need to call a specific element inside of a larger element. The last example works with this as well.
+
+    23. How do you select all links within a div with the class of sidebar?
+        .sidebar a{}
+
+    24. What is a pseudo selector?
+            A pseudo selector is a keyword that specializes a specific state of an element. 
+
+    25. What do we use the change the spacing between lines?
+        line-height: ()px;
+
+    26. What do we use to change the spacing between letters?
+        letter-spacing: ()px;
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        Capitals: text-transform: uppercase;
+        lowercase: text-transform: lowercase;
+        Capitalize only first letters: text-transform: capitalize;
+
+    28. How do I add a 1px border around my div that is dotted and black?
+        border: 1px dotted black;
+
+    29. How do I select everything on the page? 
+        *{}
+
+    30. How do I write a comment in CSS?
+        /**/
+
+    31. How do I find out what file I am in, when I am using the command line? 
+        pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm (filename) - this is dangerous because it could potentially remove entire folders worth of data.
+
+    34. Why should I use version control? 
+
+
+    35. How often should I commit to github?
+        You should commit to github often. In particular when you make a major change that you know isn't broken. 
+
+    36. What is the command we would use to push our repo up to github? 
+        git push -u origin (branch name)
+
+    37. Walk me through Lambda's git flow. 
+        Starting out, fork the project. Make sure it's yours, add collaborers.
+        
+        Next clone using git clone and then the link given. (after getting to the file you'd like to fork it to)
+
+        cd into the repo
+
+        Create a branch of your own using - "git checkout -b 'michael-quint'"
+
+        Do your work and commit periodically. Using git add . and then git commit -m "message" 
+        
+        then push your changes to github using - git push -u branch-name
+
+        Submit a pull request
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
